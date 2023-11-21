@@ -253,3 +253,119 @@ footer a {
         height: 4.2rem;
     }
 }
+
+@media only screen and (min-width: 769px) {
+    div img + p, header nav ul li a {
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+    article > h1 {
+        font-size: 3.5em;
+        line-height: 6rem;
+    }
+    #html_logo {
+        width: 7rem;
+    }
+    p, address, ul, ol, dl, blockquote {
+        margin-bottom: 1.4em;
+        font-weight: 300;
+        font-size: 1.8rem;
+    }
+    article h2 {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    article table {
+        margin: 8rem auto;
+        width: 70%;
+    }
+    a {
+        font-weight: 500;
+    }
+    input {
+        width: 70%;
+    }
+    form fieldset button {
+        width: 18%;
+    }
+    form fieldset input, form fieldset button {
+        height: 4.2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header {
+        /* display: inline-block; */
+        display: inline-block;
+        text-align: unset;
+        width: 100%;
+        padding: 5px;
+        position: relative;
+    }
+    header div, header div img, header div p, header nav {
+        display: inline-block;
+        margin: 0;
+        vertical-align: middle;
+
+    }
+    header div {
+        text-align: left;
+    }
+    header nav {
+        text-align: right;
+        position: absolute;
+        right: 0;
+        top: 50%; /* o un altro valore specifico */
+        transform: translateY(-50%); /* per centrare se usi 50% */
+        margin: 0 2em;
+    }
+
+    div img + p, header nav ul li a {
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+    article > h1 {
+        font-size: 4.3em;
+        line-height: 6rem;
+    }
+    #html_logo {
+        width: 8rem;
+    }
+    p, address, ul, ol, dl, blockquote {
+        margin-bottom: 1.4em;
+        font-weight: 300;
+        font-size: 2rem;
+        line-height: 2em;
+    }
+    article h1 + p {
+        font-size: 2.3rem;
+    }
+    article h2 {
+        font-size: 2.6rem;
+        font-weight: 500;
+    }
+    article table {
+        margin: 8rem auto;
+        width: 70%;
+    }
+    a {
+        font-weight: 500;
+    }
+    input {
+        width: 70%;
+    }
+    form fieldset button {
+        width: 18%;
+    }
+    form fieldset input, form fieldset button {
+        height: 4.2rem;
+    }
+    iframe, section {
+        display: inline-block;
+        width: 45%;
+        margin: 0;
+    }
+    iframe {
+        height: 15em;
+    }
+}
