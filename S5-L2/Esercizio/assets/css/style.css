@@ -354,12 +354,6 @@ footer {
   font-size: 1.2rem;
 }
 
-@media screen and (min-width: 800px) {
-  footer {
-    padding: 1em 12em;
-  }
-}
-
 footer a {
   color: fuchsia;
 }
@@ -478,4 +472,14 @@ article > h1 {
 
 .ciaone {
   clear: both;
+}
+
+@media screen and (min-width: 800px) {
+  footer {
+    padding: 1em 12em;
+  }
+  #iconaUp {
+    right: -189px;
+    bottom: 47px;
+  }
 }
